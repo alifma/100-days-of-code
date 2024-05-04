@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Search Filter</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="p-5 bg-white shadow rounded-lg w-full max-w-md" style="height: 400px;">
+        <div class="flex flex-col space-y-4 h-full">
+            <input type="text" id="searchInput" placeholder="Search items..." class="border border-gray-300 p-2 rounded">
+            <button id="clearButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Clear</button>
+            <div class="overflow-auto">
+                <ul id="itemsList" class="list-none space-y-2">
+                    <li class="bg-gray-200 p-2 rounded shadow">Apple</li>
+                    <li class="bg-gray-200 p-2 rounded shadow">Banana</li>
+                    <li class="bg-gray-200 p-2 rounded shadow">Cherry</li>
+                    <li class="bg-gray-200 p-2 rounded shadow">Date</li>
+                    <li class="bg-gray-200 p-2 rounded shadow">Elderberry</li>
+                    <li class="bg-gray-200 p-2 rounded shadow">Fig</li>
+                    <li class="bg-gray-200 p-2 rounded shadow">Grape</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
