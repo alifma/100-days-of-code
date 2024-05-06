@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pokemon-container">
+        <h1>Pokémon Viewer</h1>
+        <input type="number" id="pokedexIdInput" placeholder="Enter Pokédex ID..." min="1">
+        <button id="searchButton">Search</button>
+        <div id="loading" >
+            <img id="loadingGif" src="https://i.pinimg.com/originals/15/3c/fb/153cfb7dcfb406a368a3dc4e35e37efb.gif" alt="Loading..." />
+        </div>
+        <div id="pokemonDisplay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
