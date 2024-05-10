@@ -1,0 +1,1 @@
+# Just reimplementation of log dev the items is on its own repository, this items is just a placeholder to show that i keep coding for 100 days.
